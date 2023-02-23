@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    box-shadow: 0px 2px 8px rgba(40, 41, 61, 0.08), 0px 20px 32px rgba(96, 97, 112, 0.24);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: relative;
+    width: 420px;
+    height: 410px;
+}
+
+.content-wrapper {
+    padding: 0 16px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    position: absolute;
+}
+
+.name {
+   width: 351px;
+   height: 32;
+   display: flex;
+   justify-content: left;
+   align-items: center; 
+}
+
+.ic-close {
+    width: 24px;
+    height: 24px; 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 21px 21px 385px 375px;
+    padding: 5px;
+}
+
+.close {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    margin: auto;
+    align-self: stretch;
+    width: 100%;
+    width: 388px;
+}
+
+h1 {
+    width: 351px;
+    height: 32px;
+    font-size: 28px;
+    padding-left: 20px;
+}
+
+.forms {
+    align-items: center;
+    justify-content: center;
+    margin: 24px 16px; 
+    
+}
+
+input {
+    display: block;
+    margin: auto;
+}
+
+.texst {
+    font-size: 12px;
+    color: #7B8E98;
+    margin: 24px 16px;
+    margin: 0 24px;
+}
+
+input[name="email"] {
+    padding: 21px 184px 16px 7px;
+    box-sizing: border-box;
+    background-color: white;
+    height: 48px;
+    border: 1px solid #ffe44d;
+    border-radius: 12px;
+}
+
+input[name="password"] {
+    padding: 21px 184px 16px 7px;
+    box-sizing: border-box;
+    background-color: white;
+    height: 48px;
+    border: 1px solid #cfd8dc;
+    border-radius: 12px;
+    margin-top: 8px;
+}
+.buttons {
+    padding: 24px 16px 16px; 
+}
+
+input[name="Registry"] {
+    box-sizing: border-box;
+    padding: 14px 95px;
+    background-color: #ffe44d;
+    height: 48px;
+    border-radius: 55px;
+    border: #ffe44d;
+}
+
+input[name="Entry"] {
+    box-sizing: border-box;
+    padding: 14px 95px;
+    background-color: white;
+    height: 48px;
+    border-radius: 87px;
+    border: 1px solid #cfd8dc;
+    margin-top: 8px;
+ }
+
+ ::placeholder {
+    color: black;
+ }
+ input[name="password"]::placeholder{
+    color: #cfd8dc;
+ }
+
+
+
+
+
+    
+    
